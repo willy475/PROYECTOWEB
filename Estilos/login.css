@@ -1,0 +1,119 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(/Avance_web/HTML/imagenes/Fondo.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px; 
+    background-color:cornflowerblue ;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+ 
+article{
+    margin: 0;
+    
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: white;
+    border: #1a2537;
+    
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input [type="text"],
+input [type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+}
+@media(min-width:768px){
+
+.formulario{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px ;
+    border-radius: 2%;
+}
+
+}
+
+
+
